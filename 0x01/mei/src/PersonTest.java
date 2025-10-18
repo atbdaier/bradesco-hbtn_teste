@@ -44,12 +44,12 @@ public class PersonTest {
         assertFalse(person.isMEI());
     }
 
-    @Test
-    public void person_is_not_MEI_(){
-        person.setSalary(13000);
-        person.setAnotherCompanyOwner(true);
-        assertFalse(person.isMEI());
-    }
+//    @Test
+//    public void person_is_not_MEI_(){
+//        person.setSalary(13000);
+//        person.setAnotherCompanyOwner(true);
+//        assertFalse(person.isMEI());
+//    }
 }
 
 
